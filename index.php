@@ -1,18 +1,25 @@
 <?php
 
 // Premiere ligne
-echo 10 5;
+$nb1 =10;
+$nb2 = 5;
+echo $nb1 *= $nb2;
+echo "<br>";
 
 //Deuxieme ligne
-echo 10 2;
+$nb3 = 10;
+$nb4 = 2;
+echo $nb3 /= $nb4;
 
 //Troisieme ligne
-if($a $b) {
+$a = 5;
+$b = 5;
+if($a === $b) {
     echo "<br><br>a est identique à b";
 }
 
 //Quatrieme ligne
-if($a $b) {
+if($a != $b) {
     echo"<br><br>a n'est pas identique à b";
 }
 
@@ -20,7 +27,7 @@ if($a $b) {
 //Cinquieme ligne
 $arr1 = ["machin", "truc"];
 $arr2 = ["truc", "machin"];
-if($arr1 $arr2) {
+if($arr1 == $arr2) {
     echo "<br><br>les tableaux ont le même contenu";
 }
 
